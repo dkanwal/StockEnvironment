@@ -5,15 +5,6 @@ import numpy as np
 import math
 import matplotlib.pyplot as plt
 
-'''
-Author: Deven Kanwal
-Date Written: 2/14/22
-This program takes in a .csv file of historical stock data of a given list of stocks and creates a dataframe with each column
-being a given stock in the list and each row the date and the cells are a given stock's adjusted close price. All dates the 
-market was open and SPY was traded are the dates reflectedin the DataFrame. The program also gives the option to enable the 'plot'
-flag which will plot of the given daily portfolio value vs SPY's daily value. 
-'''
-
 
 def get_data(start_date, end_date, symbols, column_name = 'Adj Close', include_spy=True):
     df_1 = pd.read_csv("data/SPY.csv", index_col="Date", parse_dates=True, usecols=['Date', column_name])
