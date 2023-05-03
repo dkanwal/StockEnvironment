@@ -3,7 +3,7 @@
 
 Author: Deven Kanwal
 
-Note: Program requires MatPlotLib, Pandas, and Numpy to run.
+Note: Program requires MatPlotLib, Pandas, Date Time, math and Numpy to run.
 
 HOW TO RUN:
     Run from the repository's directory in your terminal with the following
