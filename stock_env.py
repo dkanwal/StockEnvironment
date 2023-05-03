@@ -4,7 +4,6 @@ import pandas
 import numpy as np
 from tech_ind import *
 from TabularQLearner import TabularQLearner
-from backtest_techstrat2 import assess_strategy
 from assess import backtest_helper
 import matplotlib.pyplot as plt
 
